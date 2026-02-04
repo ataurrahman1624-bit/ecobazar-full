@@ -101,16 +101,17 @@ color: var(--gray-scale-gray-–-600);
 	display: flex;
 	width: 100%;
 }
-#headermid form input{
-	padding: 12px 18px 12px 44px;
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 15px;
-line-height: 140%;
-color: var(--gray-scale-gray-–-500);
-border: 1px solid var(--gray-scale-gray-–-300);
-border-radius: 4px 0 0 4px;
-gap: 10px;
+#headermid form input {
+    padding: 12px 18px 12px 44px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--gray-scale-gray-–-500);
+    border: 1px solid var(--gray-scale-gray-–-300);
+    border-radius: 4px 0 0 4px;
+    width: 400px;
+    gap: 10px;
 }
 #headermid form iconify-icon{
 	position: absolute;
@@ -926,4 +927,5 @@ color: var(--gray-scale-gray-–-500);
 }
 footer .payment li{
 	padding-right: 8px;
+
 }
