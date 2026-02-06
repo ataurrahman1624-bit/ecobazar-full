@@ -60,6 +60,24 @@
         },
       },
     });
+var swiper = new Swiper(".swiperReview", {
+      slidesPerView: 3,
+      spaceBetween: 10,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+
+    });
    
  // countdown jquery file starts here
 
@@ -77,20 +95,3 @@
     ));
   });
   // countdown jquery file ends here
-var swiper = new Swiper(".swiperReview", {
-      slidesPerView: 3,
-      spaceBetween: 10,
-      loop: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: true,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
